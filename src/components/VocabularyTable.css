@@ -1,0 +1,189 @@
+.vocabulary-table-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.vocabulary-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(44, 62, 80, 0.1);
+  border: 1px solid #e0e7ef;
+}
+
+.vocabulary-table thead {
+  background: linear-gradient(135deg, #64b5f6 0%, #42a5f5 100%);
+  color: white;
+}
+
+.vocabulary-table th {
+  padding: 20px 24px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: white;
+}
+
+.vocabulary-table th:last-child {
+  text-align: center;
+}
+
+.vocabulary-table tbody tr {
+  border-bottom: 1px solid #e0e7ef;
+  transition: all 0.3s ease;
+}
+
+.vocabulary-table tbody tr:hover {
+  background-color: #f5f9fc;
+}
+
+.vocabulary-table tbody tr.completed {
+  background-color: #f5f7fa;
+  color: #95a5a6;
+  opacity: 0.75;
+}
+
+.vocabulary-table tbody tr.completed td {
+  text-decoration: line-through;
+}
+
+.vocabulary-table tbody tr.completed:hover {
+  background-color: #ecf0f1;
+}
+
+.vocabulary-table td {
+  padding: 20px 24px;
+  font-size: 16px;
+}
+
+.word-cell {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1.25rem !important;
+}
+
+.completed .word-cell {
+  color: #95a5a6;
+}
+
+.ipa-cell {
+  color: #34495e;
+  font-family: 'Charis SIL', 'Doulos SIL', 'Gentium Plus', 'Arial Unicode MS', 'Lucida Sans Unicode', 'DejaVu Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1.4;
+}
+
+.completed .ipa-cell {
+  color: #95a5a6;
+}
+
+.meaning-cell {
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.completed .meaning-cell {
+  color: #95a5a6;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.speak-button,
+.complete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  min-width: 80px;
+  border: 1px solid transparent;
+}
+
+.speak-button {
+  background: linear-gradient(135deg, #64b5f6 0%, #42a5f5 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(66, 165, 245, 0.25);
+}
+
+.speak-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(66, 165, 245, 0.4);
+  background: linear-gradient(135deg, #42a5f5 0%, #2196f3 100%);
+}
+
+.speak-button:active {
+  transform: translateY(0);
+}
+
+.complete-button {
+  background: #a8e6cf;
+  color: #2c3e50;
+  border-color: #7dd3a0;
+}
+
+.complete-button:hover {
+  background: #7dd3a0;
+  color: #2c3e50;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(125, 211, 160, 0.3);
+}
+
+.complete-button.completed {
+  background: #5d6d7e;
+  color: white;
+  border-color: #4a5568;
+  box-shadow: 0 2px 8px rgba(93, 109, 126, 0.25);
+}
+
+.complete-button.completed:hover {
+  background: #4a5568;
+  color: white;
+  box-shadow: 0 4px 16px rgba(74, 85, 104, 0.35);
+}
+
+@media (max-width: 768px) {
+  .vocabulary-table-container {
+    padding: 16px;
+  }
+
+  .vocabulary-table th,
+  .vocabulary-table td {
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+
+  .word-cell {
+    font-size: 1.25rem !important;
+  }
+
+  .ipa-cell {
+    font-size: 18px;
+  }
+
+  .actions-cell {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .speak-button,
+  .complete-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+}
