@@ -1,18 +1,16 @@
-name: Deploy to GitHub Pages
+name: Build and publish to deployment branch
 
-# 触发条件：每次 push 到 main 分支时触发
 on:
   push:
     branches:
       - main
 
-# 最小必需权限：允许写入 Pages 与读取代码
 permissions:
-  contents: read
+  contents: write
   pages: write
 
 jobs:
-  build-and-deploy:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -32,11 +30,12 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy to gh-pages
+      - name: Publish to deployment branch
+        # 使用 peaceiris/actions-gh-pages 简化推送构建产物的流程
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages
+          publish_branch: deployment
           user_name: 'github-actions[bot]'
           user_email: '41898282+github-actions[bot]@users.noreply.github.com'
