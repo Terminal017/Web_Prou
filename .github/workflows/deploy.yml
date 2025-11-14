@@ -43,14 +43,3 @@ jobs:
           publish_branch: deployment
           user_name: 'github-actions[bot]'
           user_email: '41898282+github-actions[bot]@users.noreply.github.com'
-
-      - name: Configure Pages source to deployment branch (optional auto-enable)
-        if: success()
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -s -X PUT \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $GITHUB_TOKEN" \
-            https://api.github.com/repos/${{ github.repository }}/pages \
-            -d '{"source":{"branch":"deployment","path":"/"}}'
