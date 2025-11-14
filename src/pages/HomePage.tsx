@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import './HomePage.css';
+import { Link } from 'react-router-dom'
+import './HomePage.css'
 
 export default function HomePage() {
   return (
@@ -22,9 +22,14 @@ export default function HomePage() {
           <Link to="/browser" className="home-card">
             <h2>Browser</h2>
           </Link>
+          <Link to="/frame" className="home-card">
+            <h2>Frame</h2>
+          </Link>
+          <Link to="/other" className="home-card">
+            <h2>Other</h2>
+          </Link>
         </div>
       </div>
     </div>
-  );
+  )
 }
-

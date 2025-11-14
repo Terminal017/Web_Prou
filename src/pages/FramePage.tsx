@@ -1,16 +1,14 @@
 import VocabularyTable from '../components/VocabularyTable'
-// 替换旧的聚合文件导入
-import htmlData from '../data/html.json'
+import frameData from '../data/frame.json'
 import type { VocabularyItem } from '../types/vocabulary'
 import './Page.css'
 
-export default function HTMLPage() {
-  const items = htmlData as VocabularyItem[]
-
+export default function FramePage() {
+  const items = frameData as VocabularyItem[]
   return (
     <div className="page-container">
       <div className="page-header">
-        <h1>HTML词汇</h1>
+        <h1>Frame词汇</h1>
       </div>
       <VocabularyTable items={items} />
     </div>

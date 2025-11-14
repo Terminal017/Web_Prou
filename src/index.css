@@ -26,14 +26,17 @@ body {
   margin: 0;
   padding: 0;
   min-width: 320px;
-  height: 100%;
-  overflow: hidden;
+  min-height: 100%; /* 原 height:100% -> min-height:100% */
+  height: auto; /* 允许随内容增长 */
+  overflow-y: auto; /* 使用窗口滚动 */
+  overflow-x: hidden;
   background-color: #f5f7fa;
 }
 
 #root {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible; /* 不再裁剪子元素滚动 */
 }

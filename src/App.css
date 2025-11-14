@@ -2,6 +2,8 @@
 .app-wrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+  /* 由固定高度改为最小高度，允许窗口滚动 */
+  min-height: 100vh;
+  /* 允许窗口滚动，不再截断 */
+  overflow: visible;
 }

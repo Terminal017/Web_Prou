@@ -3,6 +3,8 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 24px;
+  overflow-x: auto; /* 新增：小屏允许横向滚动 */
+  -webkit-overflow-scrolling: touch; /* 惯性滚动 */
 }
 
 .vocabulary-table {
@@ -13,6 +15,7 @@
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(44, 62, 80, 0.1);
   border: 1px solid #e0e7ef;
+  min-width: 720px; /* 新增：避免在窄屏过度挤压 */
 }
 
 .vocabulary-table thead {
@@ -74,7 +77,8 @@
 
 .ipa-cell {
   color: #34495e;
-  font-family: 'Charis SIL', 'Doulos SIL', 'Gentium Plus', 'Arial Unicode MS', 'Lucida Sans Unicode', 'DejaVu Sans', sans-serif;
+  font-family: 'Charis SIL', 'Doulos SIL', 'Gentium Plus', 'Arial Unicode MS',
+    'Lucida Sans Unicode', 'DejaVu Sans', sans-serif;
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 0.8px;
@@ -156,34 +160,108 @@
   box-shadow: 0 4px 16px rgba(74, 85, 104, 0.35);
 }
 
+.vocabulary-mobile-list {
+  display: none;
+}
+
+/* 仅保留一个断点：<=768px 作为移动端 */
 @media (max-width: 768px) {
   .vocabulary-table-container {
     padding: 16px;
+    overflow-x: hidden;
   }
 
+  /* 隐藏表格，使用卡片式 */
+  .vocabulary-table {
+    display: none;
+  }
+  .vocabulary-table thead {
+    display: none;
+  }
+
+  /* 按钮与单元格在移动端的基础样式 */
   .vocabulary-table th,
   .vocabulary-table td {
     padding: 14px 16px;
     font-size: 14px;
   }
-
   .word-cell {
-    font-size: 1.25rem !important;
+    font-size: 1.1rem !important;
   }
-
   .ipa-cell {
     font-size: 18px;
   }
 
+  /* 取消按钮 100% 宽度，保留 padding 表现 */
   .actions-cell {
     flex-direction: column;
     gap: 8px;
   }
-
   .speak-button,
   .complete-button {
-    width: 100%;
-    padding: 12px;
+    width: auto;
+    padding: 10px 20px;
     font-size: 14px;
+    min-width: auto;
+  }
+
+  /* 显示移动端卡片列表 */
+  .vocabulary-mobile-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .vocab-card {
+    background: #ffffff;
+    border: 1px solid #e0e7ef;
+    border-radius: 16px;
+    padding: 14px 16px;
+    box-shadow: 0 4px 14px rgba(44, 62, 80, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .vocab-card.completed {
+    opacity: 0.75;
+  }
+  .vocab-card-main {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 18px;
+  }
+  .vocab-word {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  .vocab-ipa {
+    font-size: 16px;
+    font-weight: 500;
+    color: #34495e;
+    font-family: 'Charis SIL', 'Gentium Plus', sans-serif;
+  }
+  .vocab-card-extra {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .vocab-meaning {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2c3e50;
+  }
+  .vocab-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .vocab-card.completed .vocab-word,
+  .vocab-card.completed .vocab-ipa,
+  .vocab-card.completed .vocab-meaning {
+    text-decoration: line-through;
+    color: #95a5a6;
   }
 }
+
+/* 已移除 <=600px 与 <=480px 的重复断点，统一由 <=768px 控制 */

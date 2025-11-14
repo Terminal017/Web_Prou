@@ -1,10 +1,11 @@
-import VocabularyTable from '../components/VocabularyTable';
-import vocabularyData from '../data/vocabulary.json';
-import { VocabularyItem } from '../types/vocabulary';
-import './Page.css';
+import VocabularyTable from '../components/VocabularyTable'
+// 替换旧的聚合文件导入
+import cssData from '../data/css.json'
+import type { VocabularyItem } from '../types/vocabulary'
+import './Page.css'
 
 export default function CSSPage() {
-  const items = vocabularyData.css as VocabularyItem[];
+  const items = cssData as VocabularyItem[] // 扁平数组
 
   return (
     <div className="page-container">
@@ -13,6 +14,5 @@ export default function CSSPage() {
       </div>
       <VocabularyTable items={items} />
     </div>
-  );
+  )
 }
-

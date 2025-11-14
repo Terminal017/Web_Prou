@@ -1,10 +1,11 @@
-import VocabularyTable from '../components/VocabularyTable';
-import vocabularyData from '../data/vocabulary.json';
-import { VocabularyItem } from '../types/vocabulary';
-import './Page.css';
+import VocabularyTable from '../components/VocabularyTable'
+// 替换已删除的聚合数据文件
+import jsData from '../data/js.json'
+import type { VocabularyItem } from '../types/vocabulary'
+import './Page.css'
 
 export default function JSPage() {
-  const items = vocabularyData.js as VocabularyItem[];
+  const items = jsData as VocabularyItem[]
 
   return (
     <div className="page-container">
@@ -13,6 +14,5 @@ export default function JSPage() {
       </div>
       <VocabularyTable items={items} />
     </div>
-  );
+  )
 }
-

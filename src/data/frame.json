@@ -1,0 +1,40 @@
+[
+  { "word": "HTML", "ipa": "/ˌeɪtʃ.tiː.emˈel/", "meaning": "超文本标记语言" },
+  { "word": "CSS", "ipa": "/ˌsiː.esˈes/", "meaning": "层叠样式表" },
+  {
+    "word": "JavaScript",
+    "ipa": "/ˈdʒɑːvəˌskrɪpt/",
+    "meaning": "JavaScript 脚本语言"
+  },
+  {
+    "word": "TypeScript",
+    "ipa": "/ˈtaɪp.skrɪpt/",
+    "meaning": "TypeScript 语言"
+  },
+  { "word": "React", "ipa": "/riˈækt/", "meaning": "React 前端框架" },
+  { "word": "Vue", "ipa": "/vjuː/", "meaning": "Vue 前端框架" },
+  { "word": "Tailwind", "ipa": "/ˈteɪlwɪnd/", "meaning": "Tailwind CSS 框架" },
+  { "word": "Vite", "ipa": "/viːt/", "meaning": "Vite 构建工具" },
+  { "word": "Vercel", "ipa": "/vərˈsɛl/", "meaning": "Vercel 部署平台" },
+  {
+    "word": "Auth",
+    "ipa": "/ɔːθ/",
+    "meaning": "认证（Authentication 的缩写）"
+  },
+  {
+    "word": "MongoDB",
+    "ipa": "/ˌmɒŋɡoʊ.diːˈbiː/",
+    "meaning": "MongoDB 文档数据库"
+  },
+  {
+    "word": "React Native",
+    "ipa": "/riˈækt ˈneɪtɪv/",
+    "meaning": "React Native 移动开发框架"
+  },
+  {
+    "word": "Electron",
+    "ipa": "/ɪˈlɛktrɒn/",
+    "meaning": "Electron 跨平台桌面开发框架"
+  },
+  { "word": "Motion", "ipa": "/ˈmoʊʃən/", "meaning": "Framer Motion 动画库" }
+]

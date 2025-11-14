@@ -1,0 +1,22 @@
+[
+  { "word": "component", "ipa": "/kəmˈpoʊnənt/", "meaning": "组件" },
+  { "word": "context", "ipa": "/ˈkɒntekst/", "meaning": "上下文" },
+  { "word": "effect", "ipa": "/ɪˈfekt/", "meaning": "副作用" },
+  { "word": "fragment", "ipa": "/ˈfræɡmənt/", "meaning": "片段" },
+  { "word": "hook", "ipa": "/hʊk/", "meaning": "钩子" },
+  { "word": "jsx", "ipa": "/dʒeɪ es eks/", "meaning": "JSX语法" },
+  { "word": "memo", "ipa": "/ˈmemoʊ/", "meaning": "记忆化" },
+  { "word": "portal", "ipa": "/ˈpɔːtəl/", "meaning": "传送门" },
+  { "word": "props", "ipa": "/prɒps/", "meaning": "属性" },
+  { "word": "reducer", "ipa": "/rɪˈdjuːsər/", "meaning": "归约器" },
+  { "word": "ref", "ipa": "/ref/", "meaning": "引用" },
+  { "word": "render", "ipa": "/ˈrendər/", "meaning": "渲染" },
+  { "word": "router", "ipa": "/ˈruːtər/", "meaning": "路由" },
+  { "word": "state", "ipa": "/steɪt/", "meaning": "状态" },
+  { "word": "suspense", "ipa": "/səˈspens/", "meaning": "悬念" },
+  { "word": "synthetic", "ipa": "/sɪnˈθetɪk/", "meaning": "合成事件" },
+  { "word": "virtual", "ipa": "/ˈvɜːrtʃuəl/", "meaning": "虚拟DOM" },
+  { "word": "workflow", "ipa": "/ˈwɜːrkfloʊ/", "meaning": "工作流" },
+  { "word": "wrapper", "ipa": "/ˈræpər/", "meaning": "包装器" },
+  { "word": "yield", "ipa": "/jiːld/", "meaning": "生成器" }
+]

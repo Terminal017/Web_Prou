@@ -1,0 +1,27 @@
+[
+  { "word": "bundler", "ipa": "/ˈbʌndlər/", "meaning": "打包工具" },
+  {
+    "word": "CLI",
+    "ipa": "/ˌsiː.elːˈaɪ/",
+    "meaning": "命令行界面（Command Line Interface）"
+  },
+  { "word": "compiler", "ipa": "/kəmˈpaɪlər/", "meaning": "编译器" },
+  { "word": "configuration", "ipa": "/kənˌfɪɡjəˈreɪʃən/", "meaning": "配置" },
+  { "word": "dependency", "ipa": "/dɪˈpendənsi/", "meaning": "依赖" },
+  { "word": "extension", "ipa": "/ɪkˈstenʃən/", "meaning": "扩展" },
+  { "word": "framework", "ipa": "/ˈfreɪmwɜːrk/", "meaning": "框架" },
+  { "word": "integration", "ipa": "/ˌɪntɪˈɡreɪʃən/", "meaning": "集成" },
+  { "word": "module", "ipa": "/ˈmɒdʒuːl/", "meaning": "模块" },
+  { "word": "package", "ipa": "/ˈpækɪdʒ/", "meaning": "包" },
+  { "word": "plugin", "ipa": "/ˈplʌɡɪn/", "meaning": "插件" },
+  {
+    "word": "scaffolding",
+    "ipa": "/ˈskæfəldiŋ/",
+    "meaning": "脚手架（项目模板生成）"
+  },
+  { "word": "version", "ipa": "/ˈvɜːrʒən/", "meaning": "版本" },
+  { "word": "deployment", "ipa": "/dɪˈplɔɪmənt/", "meaning": "部署" },
+  { "word": "performance", "ipa": "/pərˈfɔːrməns/", "meaning": "性能" },
+  { "word": "refactor", "ipa": "/ˌriːˈfæktər/", "meaning": "重构" },
+  { "word": "rollback", "ipa": "/ˈroʊlbæk/", "meaning": "回滚" }
+]

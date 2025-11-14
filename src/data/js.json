@@ -1,0 +1,155 @@
+[
+  { "word": "array", "ipa": "/əˈreɪ/", "meaning": "数组；一组数据" },
+  {
+    "word": "argument",
+    "ipa": "/ˈɑːɡjumənt/",
+    "meaning": "参数；传递给函数的值"
+  },
+  {
+    "word": "async",
+    "ipa": "/ˈeɪ.sɪŋk/",
+    "meaning": "异步的（asynchronous 的缩写）"
+  },
+  { "word": "await", "ipa": "/əˈweɪt/", "meaning": "等待；等待异步结果" },
+  { "word": "boolean", "ipa": "/ˈbuːliən/", "meaning": "布尔值；真假值" },
+  {
+    "word": "callback",
+    "ipa": "/ˈkɔːlˌbæk/",
+    "meaning": "回调；作为参数传递的函数"
+  },
+  { "word": "case", "ipa": "/keɪs/", "meaning": "情况；switch语句的分支" },
+  { "word": "catch", "ipa": "/kætʃ/", "meaning": "捕获；捕获错误" },
+  { "word": "class", "ipa": "/klæs/", "meaning": "类；对象的模板" },
+  { "word": "clone", "ipa": "/kloʊn/", "meaning": "克隆；拷贝数据或对象" },
+  {
+    "word": "closure",
+    "ipa": "/ˈkloʊʒər/",
+    "meaning": "闭包；函数捕获外部变量"
+  },
+  { "word": "compare", "ipa": "/kəmˈpɛər/", "meaning": "比较" },
+  {
+    "word": "concat",
+    "ipa": "/ˈkɒn.kæt/",
+    "meaning": "连接；将数组或字符串拼接"
+  },
+  { "word": "condition", "ipa": "/kənˈdɪʃən/", "meaning": "条件" },
+  {
+    "word": "constructor",
+    "ipa": "/kənˈstrʌktər/",
+    "meaning": "构造函数；初始化对象时调用"
+  },
+  {
+    "word": "continue",
+    "ipa": "/kənˈtɪnjuː/",
+    "meaning": "继续；跳过当前循环"
+  },
+  { "word": "date", "ipa": "/deɪt/", "meaning": "日期；JS 日期对象" },
+  { "word": "debug", "ipa": "/diːˈbʌɡ/", "meaning": "调试；查找错误" },
+  { "word": "defer", "ipa": "/dɪˈfɜːr/", "meaning": "延迟；推迟执行" },
+  { "word": "define", "ipa": "/dɪˈfaɪn/", "meaning": "定义" },
+  { "word": "delete", "ipa": "/dɪˈliːt/", "meaning": "删除；移除属性" },
+  {
+    "word": "destructure",
+    "ipa": "/diːˈstrʌktʃər/",
+    "meaning": "解构；按结构取值"
+  },
+  { "word": "event", "ipa": "/ɪˈvent/", "meaning": "事件" },
+  { "word": "exception", "ipa": "/ɪkˈsepʃən/", "meaning": "异常；错误情况" },
+  { "word": "execute", "ipa": "/ˈeksɪkjuːt/", "meaning": "执行（代码）" },
+  { "word": "export", "ipa": "/ˈekspɔːrt/", "meaning": "导出模块" },
+  {
+    "word": "filter",
+    "ipa": "/ˈfɪltər/",
+    "meaning": "过滤；从数组筛选出部分元素"
+  },
+  {
+    "word": "function",
+    "ipa": "/ˈfʌŋkʃən/",
+    "meaning": "函数；一段可复用代码"
+  },
+  { "word": "generate", "ipa": "/ˈdʒenəreɪt/", "meaning": "生成" },
+  { "word": "global", "ipa": "/ˈɡloʊbəl/", "meaning": "全局的；整体的" },
+  { "word": "hash", "ipa": "/hæʃ/", "meaning": "哈希；散列值" },
+  { "word": "import", "ipa": "/ˈɪmpɔːrt/", "meaning": "引入模块" },
+  {
+    "word": "instance",
+    "ipa": "/ˈɪnstəns/",
+    "meaning": "实例；由类创建的对象"
+  },
+  { "word": "iterate", "ipa": "/ˈɪtəˌreɪt/", "meaning": "迭代；重复循环" },
+  { "word": "key", "ipa": "/kiː/", "meaning": "键；对象的键名" },
+  { "word": "length", "ipa": "/leŋkθ/", "meaning": "长度；数组或字符串长度" },
+  { "word": "library", "ipa": "/ˈlaɪbreri/", "meaning": "库；可复用代码集合" },
+  { "word": "literal", "ipa": "/ˈlɪtərəl/", "meaning": "字面量" },
+  { "word": "loop", "ipa": "/luːp/", "meaning": "循环" },
+  { "word": "map", "ipa": "/mæp/", "meaning": "映射；对数组逐项处理" },
+  { "word": "method", "ipa": "/ˈmeθəd/", "meaning": "方法；对象的函数" },
+  {
+    "word": "module",
+    "ipa": "/ˈmɒdʒuːl/",
+    "meaning": "模块；可独立的代码单元"
+  },
+  { "word": "namespace", "ipa": "/ˈneɪmˌspeɪs/", "meaning": "命名空间" },
+  { "word": "null", "ipa": "/nʌl/", "meaning": "空值；不存在" },
+  { "word": "number", "ipa": "/ˈnʌmbər/", "meaning": "数字" },
+  { "word": "object", "ipa": "/ˈɒbdʒɪkt/", "meaning": "对象；键值结构" },
+  { "word": "optimize", "ipa": "/ˈɒptɪmaɪz/", "meaning": "优化" },
+  {
+    "word": "parameter",
+    "ipa": "/pəˈræmɪtər/",
+    "meaning": "参数；函数声明中的变量"
+  },
+  { "word": "parse", "ipa": "/pɑːrs/", "meaning": "解析；从字符串中读取结构" },
+  {
+    "word": "promise",
+    "ipa": "/ˈprɒmɪs/",
+    "meaning": "承诺；异步结果的占位符"
+  },
+  { "word": "property", "ipa": "/ˈprɒpərti/", "meaning": "属性；对象的值" },
+  {
+    "word": "prototype",
+    "ipa": "/ˈproʊtəˌtaɪp/",
+    "meaning": "原型；对象继承的基础"
+  },
+  { "word": "query", "ipa": "/ˈkwɪəri/", "meaning": "查询（DOM 或数据）" },
+  { "word": "random", "ipa": "/ˈrændəm/", "meaning": "随机的" },
+  {
+    "word": "reduce",
+    "ipa": "/rɪˈdjuːs/",
+    "meaning": "减少；将数组归约为单值"
+  },
+  { "word": "reference", "ipa": "/ˈrefrəns/", "meaning": "引用；指向同一地址" },
+  {
+    "word": "reject",
+    "ipa": "/rɪˈdʒekt/",
+    "meaning": "拒绝；Promise 的失败结果"
+  },
+  {
+    "word": "resolve",
+    "ipa": "/rɪˈzɒlv/",
+    "meaning": "解决；Promise 的成功结果"
+  },
+  { "word": "return", "ipa": "/rɪˈtɜːrn/", "meaning": "返回；函数返回结果" },
+  { "word": "scope", "ipa": "/skoʊp/", "meaning": "作用域；可访问变量的范围" },
+  { "word": "script", "ipa": "/skrɪpt/", "meaning": "脚本；执行代码的文件" },
+  { "word": "set", "ipa": "/set/", "meaning": "设置；赋值" },
+  { "word": "slice", "ipa": "/slaɪs/", "meaning": "切片；从数组/字符串取部分" },
+  { "word": "spread", "ipa": "/spred/", "meaning": "展开；扩展数组或对象" },
+  { "word": "stack", "ipa": "/stæk/", "meaning": "堆栈；调用记录" },
+  { "word": "state", "ipa": "/steɪt/", "meaning": "状态；某一时刻的数据" },
+  { "word": "string", "ipa": "/strɪŋ/", "meaning": "字符串" },
+  {
+    "word": "synchronize",
+    "ipa": "/ˈsɪŋkrəˌnaɪz/",
+    "meaning": "同步；按顺序执行"
+  },
+  { "word": "template", "ipa": "/ˈtemplɪt/", "meaning": "模板" },
+  { "word": "token", "ipa": "/ˈtoʊkən/", "meaning": "标记；最小语法单位" },
+  { "word": "transform", "ipa": "/trænsˈfɔːrm/", "meaning": "转换" },
+  { "word": "type", "ipa": "/taɪp/", "meaning": "类型；数据类别" },
+  { "word": "undefined", "ipa": "/ˌʌndɪˈfaɪnd/", "meaning": "未定义" },
+  { "word": "value", "ipa": "/ˈvæljuː/", "meaning": "值" },
+  { "word": "variable", "ipa": "/ˈvɛəriəbl/", "meaning": "变量；可以改变的量" },
+  { "word": "void", "ipa": "/vɔɪd/", "meaning": "空；无返回值" },
+  { "word": "yield", "ipa": "/jiːld/", "meaning": "产出；生成器返回值" }
+]
